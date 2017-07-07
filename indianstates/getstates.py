@@ -10,7 +10,7 @@ def all():
         {'short_code': 2, 'name': 'Himachal Pradesh', 'short_code_text': 'HP'},
         {'short_code': 3, 'name': 'Punjab', 'short_code_text': 'PB'},
         {'short_code': 4, 'name': 'Chandigarh', 'short_code_text': 'CH'},
-        {'short_code': 5, 'name': 'Uttarakhand', 'short_code_text': 'UT'},
+        {'short_code': 5, 'name': 'Uttarakhand', 'short_code_text': 'UK'},
         {'short_code': 6, 'name': 'Haryana', 'short_code_text': 'HR'},
         {'short_code': 7, 'name': 'Delhi', 'short_code_text': 'DL'},
         {'short_code': 8, 'name': 'Rajasthan', 'short_code_text': 'RJ'},
@@ -26,8 +26,8 @@ def all():
         {'short_code': 18, 'name': 'Assam', 'short_code_text': 'AS'},
         {'short_code': 19, 'name': 'West Bengal', 'short_code_text': 'WB'},
         {'short_code': 20, 'name': 'Jharkhand', 'short_code_text': 'JH'},
-        {'short_code': 21, 'name': 'Odisha', 'short_code_text': 'OR'},
-        {'short_code': 22, 'name': 'Chhattisgarh', 'short_code_text': 'CT'},
+        {'short_code': 21, 'name': 'Odisha', 'short_code_text': 'OD'},
+        {'short_code': 22, 'name': 'Chhattisgarh', 'short_code_text': 'CG'},
         {'short_code': 23, 'name': 'Madhya Pradesh', 'short_code_text': 'MP'},
         {'short_code': 24, 'name': 'Gujarat', 'short_code_text': 'GJ'},
         {'short_code': 25, 'name': 'Daman and Diu', 'short_code_text': 'DD'},
@@ -41,6 +41,6 @@ def all():
         {'short_code': 33, 'name': 'Tamil Nadu', 'short_code_text': 'TN'},
         {'short_code': 34, 'name': 'Puducherry', 'short_code_text': 'PY'},
         {'short_code': 35, 'name': 'Andaman and Nicobar Islands', 'short_code_text': 'AN'},
-        {'short_code': 36, 'name': 'Telangana', 'short_code_text': 'TG'}
+        {'short_code': 36, 'name': 'Telangana', 'short_code_text': 'TS'}
     ]
     return [Objdict(state) for state in india_states]
